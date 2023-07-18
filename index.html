@@ -21,12 +21,12 @@
     <!--header section-->
     <header>
       <!--nav bar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light mw-100" style="height: 140px; padding: 60px 0px 0px 7px;">
+      <nav class="navbar navbar-expand-lg navbar-light mw-100" style="height: 140px; padding: 60px 0px 0px 7px;">
         <div class="container d-flex justify-content-center align-items-center">
           <img src="/images/logo.png" class="img-fluid" alt="Luxury With Love" />
-          <div class="container-fluid " style="border: 1px solid #EAECEC; justify-items: center;">
+          <div class="container-fluid search-bar" style="border: 1px solid #EAECEC; justify-items: center;">
             <form class="d-flex align-items-center justify-content-center">
-              <input class="form-control me-2 " style="width: 563px; height: 45px;" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control input-box" type="search" placeholder="Search" aria-label="Search">
               <div >
                 <img src="/images/search_icon.png" alt="search">
               </div>
@@ -56,9 +56,9 @@
       </nav>
 
       <!--menu bar-->
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light ">
         <div class="container-fluid d-flex justify-content-center">
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand text-decoration-underline"  href="#">Home</a>
           <a class="navbar-brand" href="#">All Product</a>
           <a class="navbar-brand" href="#">Towel Warmers</a>
           <a class="navbar-brand" href="#">Bathroom Accessories</a>
@@ -73,7 +73,7 @@
     <!--above fold-->
     <div class="container-fluid">
       <!--announcement bar-->
-      <div class="container-fluid d-flex justify-content-center" style="height: 35px; gap: 10px;">
+      <div class="container-fluid d-flex justify-content-center announc-bar">
         <div class="d-flex">
           <div class="flex-shrink-0 ">
             <img src="/images/a (1).png" alt="shipping-icon">
@@ -103,12 +103,13 @@
       <!--hero section-->
       <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url('images/banner_image.png');height: 50vh;background-size: cover; background-repeat: no-repeat;">
         <div class="card text-left " style="width: 18rem; background: transparent;">
-          <div class="card-body justify-content-center align-items-start" style="background: rgba(120, 120, 120, 0.90); padding: 60px; ">
-            <h5 class="card-title" style="font-size: smaller;">Limited Live Sale</h5>
-            <p class="card-text" style="font-size: large;">XX%</p>
-            <p class="card-text" style="font-size: larger;">DISCOUNT ON</p>
-            <p class="card-text" style="font-size: larger;">CURATED ITEMS</p>
-            <a href="#" class="btn btn-primary" style="width: 140px; height: 45px; justify-content: center; align-items: center; gap: 3px; border-radius: 10px; background: #B9C2D9;">Sign Up Now!</a>
+          <div class="card-body justify-content-center align-items-start">
+            <h5 class="card-title" style="font-size: 20px;">Limited Live Sale</h5>
+            <p class="card-text" style="font-size: 72px;">XX%</p>
+            <p class="card-text" style="font-size: 30px;">Discount on curated items</p>
+          <div class="signUp-btn">
+            <p class="btn">Sign Up Now!</p>
+          </div>
           </div>
         </div>
       </div>
@@ -116,11 +117,11 @@
     </div>
 
     <!--What folks can’t get enough of-->
-    <div class="container">
-      <div>
-        <p style="font-family: Bebas;">WHAT FOLKS CAN'T GET ENOUGH OF</p>
+    <div class="container-fluid sec3 " >
+      <div class="wfc-div">
+        <p class="wfc">WHAT FOLKS CAN'T GET ENOUGH OF</p>
       </div>
-      <div class="text-center">
+      <div class="cat">
         <img src="/images/Frame 4.png" class="rounded" alt="...">
         <img src="/images/Frame 5.png" class="rounded" alt="...">
         <img src="/images/Frame 6.png" class="rounded" alt="...">
@@ -128,13 +129,63 @@
         <img src="/images/Frame 8.png" class="rounded" alt="...">
       </div>
     </div>
-
-
-
-
-
+    <!--why us-->
+    <div class="container-fluid d-flex whyus">
+      <p class="whyus-Title">Why LuxuryWithLove?</p>
+      <div class="container-fluid d-flex whyus-info">
+        <div>
+          <p class="whyus-info-title">WE’RE PICKY ABOUT QUALITY</p>
+          <p class="whyus-info-text">There’s nothing more annoying than having to return your new gun because it wasn’t the real deal. That’s why we run a 25 point quality test on all airsoft weapons so you only get the most legit.</p>
+        </div>
+        <div>
+          <p class="whyus-info-title">ALL YOUR FAVOURITE BRANDS IN ONE SINGLE PLACE</p>
+          <p class="whyus-info-text">Let’s be honest. Scrolling through endless websites to find the perfect fit takes forever. So we decided to gather all those awesome airsoft brands you can’t stop talking about in our collections.</p>
+        </div>
+        <div>
+          <p class="whyus-info-title">FLASH DELIVERY</p>
+          <p class="whyus-info-text">Trust us, we know how daunting waiting for your new airsoft weapon to arrive is. Lucky for you, Flash is a full-time employee so your goodies arrive ASAP.</p>
+        </div>
+        <div>
+          <p class="whyus-info-title">WE STAND ON GUARD FOR THEE</p>
+          <p class="whyus-info-text">That’s right b’y. Beforehand, we’re airsoft lovers and enthusiasts. And as members of the airsoft community, we do the impossible to help you find what you need at the best pricing and fix any issues with a big smile on our face.</p>
+        </div>
+      </div>
+    </div>
 
     <!--blogs-->
+    <div class="container-fluid d-flex blog-div">
+      <div class="card blog-card" style="width: 35rem;">
+        <img src="/images/blog1.png" class="card-img-top blog-card-image" alt="...">
+        <div class="card-body blog-card-body">
+          <h5 class="card-title blog-card-title" >SOME THINGS NEVER CHANGE</h5>
+          <p class="card-text blog-card-text">E&L will always be essential.</p>
+          <div class="blog-btn">
+            <a href="#" class="blog-btn-text" >I want some &nbsp;&rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="card blog-card" style="width: 35rem;">
+        <img src="/images/blog2.png" class="card-img-top blog-card-image" alt="...">
+        <div class="card-body blog-card-body">
+          <h5 class="card-title blog-card-title" >OH, SHOOT!</h5>
+          <p class="card-text blog-card-text">Didn't we mention we have a huge GBB restock?</p>
+          <div class="blog-btn">
+            <a href="#" class="blog-btn-text" >No way, show me &nbsp;&rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="card blog-card" style="width: 35rem;">
+        <img src="/images/blog3.png" class="card-img-top blog-card-image" alt="...">
+        <div class="card-body blog-card-body">
+          <h5 class="card-title blog-card-title" >UNDERPERFORMING?</h5>
+          <p class="card-text blog-card-text">You're probably missing a Raven Elite Gen 2.</p>
+          <div class="blog-btn">
+            <a href="#" class="blog-btn-text" >Totally, let me see it &nbsp;&rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
 
     <!--footer-->
