@@ -9,8 +9,6 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="mystyle.css">
 
@@ -20,47 +18,63 @@
     <!--header section-->
     <header>
       <!--nav bar-->
-      <nav class="navbar navbar-expand-lg navbar-light" style="height: 140px; padding: 60px 0px 0px 7px;">
+      <nav class="navbar navbar-expand-lg navbar-light " >
         <div class="container d-flex justify-content-center align-items-center">
           <a href="#" class="navbar-brand"><img src="/images/logo.png" alt="Luxury With Love" /></a>
-          <div class="container-fluid search-bar" style="border: 1px solid #EAECEC; justify-items: center;">
-            <form class="d-flex align-items-center justify-content-center">
-              <input class="form-control input-box" type="search" placeholder="Search" aria-label="Search">
-              <div >
-                <img src="/images/search_icon.png" alt="search">
-              </div>
-            </form>
-          </div>
-          <div class="container d-flex justify-content-center align-items-center">
-            <img src="/images/flag_icon.png" alt="Cannada">
-          </div>
-          <div class="container d-flex justify-content-center align-items-center text-center" style="gap: 10px;">
-            <p style=" margin: auto;">0&nbsp;Items</p>
-            <img src="/images/cart_icon.png" alt="Cart">
-          </div>
-          <div class="container d-flex justify-content-center align-items-center " style="gap: 10px;">
-            <p style=" margin: auto;">Account</p>
-            <img src="/images/account_icon.png" alt="Account">
-          </div>
-          <div class="container d-flex justify-content-center align-items-center" style="gap: 7px;">
-            <p style=" margin: auto;">Wishlist</p>
-            <img src="/images/wishlist_icon.png" alt="Wishlist">
-          </div>
-          <div class="container d-flex justify-content-center align-items-center" style="gap: 21px;">
-            <img src="/images/sm1.png" alt="twitter">
-            <img src="/images/sm2.png" alt="facebook">
-            <img src="/images/sm3.png" alt="instagram">
-            <img src="/images/sm4.png" alt="youtube">
-          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container-fluid search-bar" style="border: 1px solid #EAECEC; justify-items: center;">
+              <form class="d-flex align-items-center justify-content-center">
+                <input class="form-control input-box" type="search" placeholder="Search" aria-label="Search">
+                <div >
+                  <img src="/images/search_icon.png" alt="search">
+                </div>
+              </form>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center">
+              <img src="/images/flag_icon.png" alt="Cannada">
+            </div>
+            <div class="container d-flex justify-content-center align-items-center text-center" style="gap: 10px;">
+              <p style=" margin: auto;">0&nbsp;Items</p>
+              <img src="/images/cart_icon.png" alt="Cart">
+            </div>
+            <div class="container d-flex justify-content-center align-items-center " style="gap: 10px;">
+              <p style=" margin: auto;">Account</p>
+              <img src="/images/account_icon.png" alt="Account">
+            </div>
+            <div class="container d-flex justify-content-center align-items-center" style="gap: 7px;">
+              <p style=" margin: auto;">Wishlist</p>
+              <img src="/images/wishlist_icon.png" alt="Wishlist">
+            </div>
+            <div class="container d-flex justify-content-center align-items-center" style="gap: 21px;">
+              <img src="/images/sm1.png" alt="twitter">
+              <img src="/images/sm2.png" alt="facebook">
+              <img src="/images/sm3.png" alt="instagram">
+              <img src="/images/sm4.png" alt="youtube">
+            </div>
+          </div> 
       </nav>
 
-      <nav class="nav navbar navbar-expand-md">
+      <nav class="nav navbar navbar-expand-lg">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link "  href="#">All Product</a>
               </li>
@@ -86,62 +100,31 @@
           </div>
         </div>
       </nav>
-
-      <!-- menu bar
-      <nav class="navbar navbar-light ">
-        <div class="container-fluid d-flex justify-content-center">
-          
-          <a class="navbar-brand" href="#">All Product</a>
-          <a class="navbar-brand" href="#">Towel Warmers</a>
-          <a class="navbar-brand" href="#">Bathroom Accessories</a>
-          <a class="navbar-brand" href="#">Shower Essentials</a>
-          <a class="navbar-brand" href="#">Thermostatic</a>
-          <a class="navbar-brand" href="#">Bathtub</a>
-          <a class="navbar-brand" href="#">Contact</a>
-        </div>
-      </nav> 
-    </header> -->
+    </header>
     
     <!--above fold-->
     <div class="container-fluid">
       <!--announcement bar-->
-      <div class=" d-flex justify-content-center announc-bar">
-        <div class="d-flex">
-          <div class="flex-shrink-0 ">
-            <img src="/images/a (1).png" alt="shipping-icon">
-          </div>
-          <div class="flex-grow-1 ms-3">
-            Free Canada-wide Shipping on orders over $300
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="flex-shrink-0">
-            <img src="/images/a (2).png" alt="shipping-icon">
-          </div>
-          <div class="flex-grow-1 ms-3">
-            Price matching all Canadian retailers
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="flex-shrink-0">
-            <img src="/images/a (3).png" alt="shipping-icon">
-          </div>
-          <div class="flex-grow-1 ms-3">
-            4.8 stars on GBP - 79 Google reviews
-          </div>
-        </div>
+      <div class=" d-flex flex-wrap justify-content-center align-items-center announc-bar p-3 hstack gap-5">
+            <div>
+              <img class="m-1" src="/images/a (1).png" alt="shipping-icon"> Free Canada-wide Shipping on orders over $300
+            </div>
+            <div>
+              <img class="m-1" src="/images/a (2).png" alt="shipping-icon"> Price matching all Canadian retailer
+            </div>
+            <div>
+              <img class="m-1" src="/images/a (3).png" alt="shipping-icon"> 4.8 stars on GBP - 79 Google reviews
+            </div>
       </div>
 
       <!--hero section-->
       <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url('images/banner_image.png');height: 50vh;background-size: cover; background-repeat: no-repeat;">
         <div class="card text-left " style="width: 18rem; background: transparent;">
-          <div class="card-body justify-content-center align-items-start">
+          <div class="card-body justify-content-center">
             <h5 class="card-title" style="font-size: 20px;">Limited Live Sale</h5>
-            <p class="card-text" style="font-size: 72px;">XX%</p>
-            <p class="card-text" style="font-size: 30px;">Discount on curated items</p>
-          <div class="signUp-btn">
-            <button type="submit" class="btn btn-primary">Sign Up Now!</button>
-          </div>
+            <p class="card-text " style="font-size: 72px;">XX%</p>
+            <p class="card-text " style="font-size: 30px;">Discount on curated items</p>
+            <button type="submit" class="btn btn-primary mt-3 ps-2">Sign Up Now!</button>
           </div>
         </div>
       </div>
@@ -149,44 +132,60 @@
     </div>
 
     <!--What folks can’t get enough of-->
-    <div class="container-fluid sec3 " >
-      <div class="wfc-div">
-        <p class="wfc">WHAT FOLKS CAN'T GET ENOUGH OF</p>
-      </div>
-      <div class="cat">
-        <img src="/images/Frame 4.png" class="rounded" alt="...">
-        <img src="/images/Frame 5.png" class="rounded" alt="...">
-        <img src="/images/Frame 6.png" class="rounded" alt="...">
-        <img src="/images/Frame 7.png" class="rounded" alt="...">
-        <img src="/images/Frame 8.png" class="rounded" alt="...">
-      </div>
+
+
+
+    <div class="container-fluid mt-5 mb-5 ps-5 pe-5 gap-5" >
+        <p class="wfc ps-5 ms-5">WHAT FOLKS CAN'T GET ENOUGH OF</p>
+        <div class=" d-flex flex-wrap justify-content-center align-items-start cat ">
+          <img src="/images/Frame 4.png" class="rounded" alt="...">
+          <img src="/images/Frame 5.png" class="rounded" alt="...">
+          <img src="/images/Frame 6.png" class="rounded" alt="...">
+          <img src="/images/Frame 7.png" class="rounded" alt="...">
+          <img src="/images/Frame 8.png" class="rounded" alt="...">
+        </div>
     </div>
+
     <!--why us-->
-    <div class=" d-flex whyus">
-      <p class="whyus-Title">Why LuxuryWithLove?</p>
-      <div class="container-fluid d-flex whyus-info">
-        <div>
-          <p class="whyus-info-title">WE’RE PICKY ABOUT QUALITY</p>
-          <p class="whyus-info-text">There’s nothing more annoying than having to return your new gun because it wasn’t the real deal. That’s why we run a 25 point quality test on all airsoft weapons so you only get the most legit.</p>
+    <div class="why-us-section">
+      <div class="container-fluid whyus pb-3 ps-5 pe-5">
+        <div class="row">
+          <div class="col-12">
+            <p class="whyus-title mt-3 mb-5">Why LuxuryWithLove?</p>
+          </div>
         </div>
-        <div>
-          <p class="whyus-info-title">ALL YOUR FAVOURITE BRANDS IN ONE SINGLE PLACE</p>
-          <p class="whyus-info-text">Let’s be honest. Scrolling through endless websites to find the perfect fit takes forever. So we decided to gather all those awesome airsoft brands you can’t stop talking about in our collections.</p>
-        </div>
-        <div>
-          <p class="whyus-info-title">FLASH DELIVERY</p>
-          <p class="whyus-info-text">Trust us, we know how daunting waiting for your new airsoft weapon to arrive is. Lucky for you, Flash is a full-time employee so your goodies arrive ASAP.</p>
-        </div>
-        <div>
-          <p class="whyus-info-title">WE STAND ON GUARD FOR THEE</p>
-          <p class="whyus-info-text">That’s right b’y. Beforehand, we’re airsoft lovers and enthusiasts. And as members of the airsoft community, we do the impossible to help you find what you need at the best pricing and fix any issues with a big smile on our face.</p>
+        <div class="row ">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">WE’RE PICKY ABOUT QUALITY</p>
+              <p class="whyus-info-text">There’s nothing more annoying than having to return your new gun because it wasn’t the real deal. That’s why we run a 25 point quality test on all airsoft weapons so you only get the most legit.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">ALL YOUR FAVOURITE BRANDS IN ONE SINGLE PLACE</p>
+              <p class="whyus-info-text">Let’s be honest. Scrolling through endless websites to find the perfect fit takes forever. So we decided to gather all those awesome airsoft brands you can’t stop talking about in our collections.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">FLASH DELIVERY</p>
+              <p class="whyus-info-text">Trust us, we know how daunting waiting for your new airsoft weapon to arrive is. Lucky for you, Flash is a full-time employee so your goodies arrive ASAP.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">WE STAND ON GUARD FOR THEE</p>
+              <p class="whyus-info-text">That’s right b’y. Beforehand, we’re airsoft lovers and enthusiasts. And as members of the airsoft community, we do the impossible to help you find what you need at the best pricing and fix any issues with a big smile on our face.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!--blogs-->
     
-    <div class=" blog-div">
+    <div class="d-flex blog-div">
       <div class="card blog-card">
         <img src="/images/blog1.png" class="card-img-top blog-card-image" alt="...">
         <div class="card-body blog-card-body">
@@ -232,7 +231,7 @@
           <p class="footer-1-title">you’ve come so far.<p>
           <p class="footer-1-text">So why not join our crew of airsoft nutheads for monthly promotions, updates and tips? Nothing can go wrong</p>
         </div>
-        <div class="footer-12">
+        <div class="d-flex  footer-12">
           <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">YOUR EMAIL</label>
@@ -248,6 +247,8 @@
       </div>
       
       <div class="footer-2">
+        <p>Terms & Policies</p>
+        <p>contact us</p>
 
       </div>
       <div class="footer-3">
