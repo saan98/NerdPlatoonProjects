@@ -1,20 +1,33 @@
-$('#owl-carousel').owlCarousel({
-    loop: true,
-    margin: 30,
-    dots: true,
-    nav: true,
+const nextIcon = '<img src="/images/arrow-next.png">'
+const prevIcon = '<img src="/images/arrow-prev.png">'
 
+
+$('#owl-carousel').owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: true,
+    autoplay: false,
+    navText:[
+        prevIcon,
+        nextIcon
+    ],
     responsiveClass:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            nav:true
         },
         600:{
-            items:3
+            items:2,
+            nav:false
         },
         1000:{
-            items:3
+            items:3,
+            nav:true,
+            loop:false
         }
     }
+
     
 })
