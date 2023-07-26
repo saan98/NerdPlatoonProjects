@@ -10,10 +10,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!--Custom CSS-->
   <link rel="stylesheet" href="/css/mystyle.css" />
-  <!--Owl carousel-->
+  <!--Owl carousel CSS-->
   <link rel="stylesheet" href="/owl_carousel/owl.carousel.css">
   <link rel="stylesheet" href="/owl_carousel/owl.theme.default.css">
-  
+
   <title>Luxury with Love</title>
 </head>
 
@@ -30,13 +30,14 @@
         </button>
         <div class="input-group">
           <input class="form-control border-end-0 border" placeholder="Search" type="search" id="example-search-input">
-          <span class="input-group-append">
-              <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-1 border ms-n5" type="button">
-                <img src="/images/search_icon.png" alt="search" />
-              </button>
+          <span class="">
+            <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-1 border ms-n5"
+              type="button">
+              <img src="/images/search_icon.png" alt="search" />
+            </button>
           </span>
         </div>
-        
+
         <div class="container d-lg-flex d-md-none d-sm-none justify-content-center align-items-center text-center">
           <img src="/images/flag_icon.png" alt="Cannada" />
         </div>
@@ -95,7 +96,7 @@
       <!--NAV-MENU-END-->
     </nav>
   </header>
-  <!--HEADER SECTION START-->
+  <!--HEADER SECTION END-->
 
   <!--ANNOUNCEMENT BAR & HERO SECTION START-->
   <section class="announcment-hero-section">
@@ -118,16 +119,16 @@
       <!--ANNOUNCEMENT BAR END-->
 
       <!--HERO SECTION START-->
-      <div class="bg-image d-flex justify-content-center align-items-center" style="
+      <div class="hero-bg bg-image d-flex justify-content-center align-items-center" style="
           background-image: url('images/banner_image.png');
           height: 50vh;
           background-size: cover;
           background-repeat: no-repeat;
         ">
-        <div class="card hero-card text-left" style="width: auto; background: transparent">
+        <div class="card hero-card text-left" style="width: 379px; background: transparent">
           <div class="hero-card-body justify-content-center">
-            <h5 class="card-title hero-card-title fs-5">Limited Live Sale</h5>
-            <p class="hero-card-text" style="font-size: 4rem">XX%</p>
+            <h5 class="card-title hero-card-title fw-lighter">Limited Live Sale</h5>
+            <p class="hero-card-text" style="font-size: 4.1rem">XX%</p>
             <p class="hero-card-text">
               Discount on</p><span class="hero-card-text">curated items</span>
             </p>
@@ -141,11 +142,11 @@
   </section>
   <!--ANNOUNCEMENT BAR & HERO SECTION END-->
 
-  <!--CATAGEORY SECCTION START-->
-  <section class="catageory-section">
-    <div class="container-fluid mt-5 mb-5 ps-5 pe-5 gap-5">
-      <p class="wfc ps-5 ms-5">WHAT FOLKS CAN'T GET ENOUGH OF</p>
-      <div class="d-flex flex-wrap justify-content-center align-items-start cat">
+  <!--CATEGORY SECTION START-->
+  <section class="category-section my-3">
+    <div class="container">
+      <p class="wfc">WHAT FOLKS CAN'T GET ENOUGH OF</p>
+      <div class="category-items d-flex flex-wrap justify-content-center align-items-start gap-4">
         <img src="/images/Frame 4.png" class="rounded" alt="..." />
         <img src="/images/Frame 5.png" class="rounded" alt="..." />
         <img src="/images/Frame 6.png" class="rounded" alt="..." />
@@ -154,73 +155,298 @@
       </div>
     </div>
   </section>
-  <!--CATAGEORY SECCTION END-->
+  <!--CATEGORY SECTION END-->
 
-  <!--WHY US SECTION START-->
-  <section class="why-us-section">
-    <div class="container-lg-fluid whyus px-5 ">
-      <div class="row">
-        <div class="col-12">
-          <p class="whyus-title mt-3 mb-5">Why LuxuryWithLove?</p>
+  <!--THE BEST OF THE BEST SECTION START-->
+  <section class="bob-section">
+    <div class="container-fluid my-3 bg-light pt-3 mb-0">
+      <div class="container d-flex">
+        <div class="bob-title">
+          The Best of the Best &rarr;
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div>
-            <p class="whyus-info-title">WE’RE PICKY ABOUT QUALITY</p>
-            <p class="whyus-info-text">
-              There’s nothing more annoying than having to return your new gun
-              because it wasn’t the real deal. That’s why we run a 25 point
-              quality test on all airsoft weapons so you only get the most
-              legit.
-            </p>
+        <div class="contain">
+          <div id="owl-carousel" class="owl-carousel owl-theme">
+            <div class="item card product-card border-light border-1 align-items-center">
+              <img src="/images/product1.jpg" class="card-img-top product-card-img" alt="..." />
+              <div class="card-body product-card-body">
+                <p class="card-text product-card-text">
+                  Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+                </p>
+                <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+                <div class="h4 fw-bolder">$21.00 USD</div>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                    <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="item card product-card border-light border-1 align-items-center">
+              <img src="/images/product2.jpg" class="card-img-top product-card-img" alt="..." />
+              <div class="card-body product-card-body">
+                <p class="card-text product-card-text">
+                  Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+                </p>
+                <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+                <div class="h4 fw-bolder">$21.00 USD</div>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                    <img  src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="item card product-card border-light border-1 align-items-center">
+              <img src="/images/product3.jpg" class="card-img-top product-card-img" alt="..." />
+              <div class="card-body product-card-body">
+                <p class="card-text product-card-text">
+                  Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+                </p>
+                <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+                <div class="h4 fw-bolder">$21.00 USD</div>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                    <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="item card product-card border-light border-1 align-items-center">
+              <img src="/images/product4.jpg" class="card-img-top product-card-img" alt="..." />
+              <div class="card-body product-card-body">
+                <p class="card-text product-card-text">
+                  Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+                </p>
+                <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+                <div class="h4 fw-bolder">$21.00 USD</div>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                    <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="item card product-card border-light border-1 align-items-center">
+              <img src="/images/product5.jpg" class="card-img-top product-card-img" alt="..." />
+              <div class="card-body product-card-body">
+                <p class="card-text product-card-text">
+                  Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+                </p>
+                <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+                <div class="h4 fw-bolder">$21.00 USD</div>
+                <div class="d-grid">
+                  <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                    <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div>
-            <p class="whyus-info-title">
-              ALL YOUR FAVOURITE BRANDS IN ONE SINGLE PLACE
-            </p>
-            <p class="whyus-info-text">
-              Let’s be honest. Scrolling through endless websites to find the
-              perfect fit takes forever. So we decided to gather all those
-              awesome airsoft brands you can’t stop talking about in our
-              collections.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div>
-            <p class="whyus-info-title">FLASH DELIVERY</p>
-            <p class="whyus-info-text">
-              Trust us, we know how daunting waiting for your new airsoft
-              weapon to arrive is. Lucky for you, Flash is a full-time
-              employee so your goodies arrive ASAP.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div>
-            <p class="whyus-info-title">WE STAND ON GUARD FOR THEE</p>
-            <p class="whyus-info-text">
-              That’s right b’y. Beforehand, we’re airsoft lovers and
-              enthusiasts. And as members of the airsoft community, we do the
-              impossible to help you find what you need at the best pricing
-              and fix any issues with a big smile on our face.
-            </p>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
-    <!--WHY US SECTION END-->
 
 
-  <!--THE BEST OF THE BEST SECTION START-->
+
+  <!--
   <div class="container-fluid my-3">
     <div class="row justify-content-center">
       <div class="col-lg-12 justify-content-lg-center bst-of-bst">
         The Best of the Best
+      </div>
+      <div class="d-flex row g-4 my-5 mx-auto owl-carousel owl-theme">
+        <div class="col product-item mx-auto">
+          
+        </div>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product3.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product3.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!--THE BEST OF THE BEEST SECTION END-->
+
+  <!--WHY US SECTION START-->
+  <section class="why-us-section">
+    <div class="container-fluid whyus px-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="whyus-title mt-3 mb-5">Why LuxuryWithLove?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">WE’RE PICKY ABOUT QUALITY</p>
+              <p class="whyus-info-text">
+                There’s nothing more annoying than having to return your new gun
+                because it wasn’t the real deal. That’s why we run a 25 point
+                quality test on all airsoft weapons so you only get the most
+                legit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">
+                ALL YOUR FAVOURITE BRANDS IN ONE SINGLE PLACE
+              </p>
+              <p class="whyus-info-text">
+                Let’s be honest. Scrolling through endless websites to find the
+                perfect fit takes forever. So we decided to gather all those
+                awesome airsoft brands you can’t stop talking about in our
+                collections.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">FLASH DELIVERY</p>
+              <p class="whyus-info-text">
+                Trust us, we know how daunting waiting for your new airsoft
+                weapon to arrive is. Lucky for you, Flash is a full-time
+                employee so your goodies arrive ASAP.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div>
+              <p class="whyus-info-title">WE STAND ON GUARD FOR THEE</p>
+              <p class="whyus-info-text">
+                That’s right b’y. Beforehand, we’re airsoft lovers and
+                enthusiasts. And as members of the airsoft community, we do the
+                impossible to help you find what you need at the best pricing
+                and fix any issues with a big smile on our face.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--WHY US SECTION END-->
+
+  <!--BLOGS ARTICLE START-->
+  <div class="container-fluid d-flex blog-div justify-content-around">
+    <div class="row align-content-center my-1 m-0">
+      <div class="col-lg-4 col-sm-12">
+        <div class="card blog-card">
+          <img src="/images/blog1.png" class="card-img-top blog-card-image" alt="..." />
+          <div class="card-body blog-card-body">
+            <h5 class="card-title blog-card-title">
+              SOME THINGS NEVER CHANGE
+            </h5>
+            <p class="card-text blog-card-text">
+              E&L will always be essential ways be essential.
+            </p>
+            <div class="btn blog-btn border-1 rounded-5">
+              <a href="#" class="blog-btn-text text-decoration-none">I want some &nbsp;&rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4">
+        <div class="card blog-card">
+          <img src="/images/blog2.png" class="card-img-top blog-card-image" alt="..." />
+          <div class="card-body blog-card-body">
+            <h5 class="card-title blog-card-title">OH, SHOOT!</h5>
+            <p class="card-text blog-card-text">
+              Didn't we mention we have a huge GBB restock?
+            </p>
+            <div class="btn blog-btn border-1 rounded-5">
+              <a href="#" class="blog-btn-text text-decoration-none">No way, show me &nbsp;&rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <div class="card blog-card">
+          <img src="/images/blog3.png" class="card-img-top blog-card-image" alt="..." />
+          <div class="card-body blog-card-body">
+            <h5 class="card-title blog-card-title">UNDERPERFORMING?</h5>
+            <p class="card-text blog-card-text">
+              You're probably missing a Raven Elite Gen 2.
+            </p>
+            <div class="btn blog-btn border-1 rounded-5">
+              <a href="#" class="blog-btn-text text-decoration-none">Totally, let me see it &nbsp;&rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--BLOGS ARTICLE END-->
+
+  <!--WHAT'S NEW SECTION START-->
+  <div class="container-fluid my-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 justify-content-lg-center bst-of-bst">
+        What's New?
       </div>
       <div class="d-flex row g-4 my-5 mx-auto owl-carousel owl-theme">
         <div class="col product-item mx-auto">
@@ -310,345 +536,218 @@
       </div>
     </div>
   </div>
-  <!--THE BEST OF THE BEEST SECTION END-->
+  <!--WHAT'S NEW SECTION END-->
 
-  <!--BLOGS ARTICLE START-->
-  <div class="container-fluid d-flex blog-div">
-    <div class="row align-content-center my-1 m-0">
-      <div class="col-lg-4 col-sm-12">
-        <div class="card blog-card">
-          <img src="/images/blog1.png" class="card-img-top blog-card-image" alt="..." />
-          <div class="card-body blog-card-body">
-            <h5 class="card-title blog-card-title">
-              SOME THINGS NEVER CHANGE
-            </h5>
-            <p class="card-text blog-card-text">
-              E&L will always be essential ways be essential.
-            </p>
-            <div class="btn blog-btn border-1 rounded-5">
-              <a href="#" class="blog-btn-text text-decoration-none">I want some &nbsp;&rarr;</a>
+  <!--RECENT RESTOCK START-->
+  <div class="container-fluid my-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 justify-content-lg-center bst-of-bst">
+        Recent Restock
+      </div>
+      <div class="d-flex row g-4 my-5 mx-auto owl-carousel owl-theme">
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-12 col-lg-4">
-        <div class="card blog-card">
-          <img src="/images/blog2.png" class="card-img-top blog-card-image" alt="..." />
-          <div class="card-body blog-card-body">
-            <h5 class="card-title blog-card-title">OH, SHOOT!</h5>
-            <p class="card-text blog-card-text">
-              Didn't we mention we have a huge GBB restock?
-            </p>
-            <div class="btn blog-btn border-1 rounded-5">
-              <a href="#" class="blog-btn-text text-decoration-none">No way, show me &nbsp;&rarr;</a>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product2.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-4 col-sm-12">
-        <div class="card blog-card">
-          <img src="/images/blog3.png" class="card-img-top blog-card-image" alt="..." />
-          <div class="card-body blog-card-body">
-            <h5 class="card-title blog-card-title">UNDERPERFORMING?</h5>
-            <p class="card-text blog-card-text">
-              You're probably missing a Raven Elite Gen 2.
-            </p>
-            <div class="btn blog-btn border-1 rounded-5">
-              <a href="#" class="blog-btn-text text-decoration-none">Totally, let me see it &nbsp;&rarr;</a>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product3.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product4.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col product-item mx-auto">
+          <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
+            <img src="/images/product5.jpg" class="card-img-top product-card-img w-75" alt="..." />
+            <div class="card-body product-card-body">
+              <p class="card-text product-card-text">
+                Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
+              </p>
+              <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
+              <div class="h4 fw-bolder">$21.00 USD</div>
+              <div class="d-grid">
+                <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
+                  <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!--BLOGS ARTICLE END-->
+  <!--RECENT RESTOCK END-->
 
-  <!--WHAT'S NEW SECTION START-->
-  <div class="container-fluid my-3">
-    <div class="row justify-content-center">
-      <div class="col-lg-1 justify-content-lg-center bst-of-bst">
-        WHAT'S NEW?
+  <!--ARTICLE BLOG 2 START-->
+  <div class="article-blog-2-section justify-content-center">
+    <div class="container-lg-fluid article-blog-2 px-5 ">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="article-blog-2-title mt-3 mb-5">THE LUXURYWITHLOVE BLOG</p>
+        </div>
       </div>
-      <div class="col-lg-11  gap-3">
-        <div class="multi-carousel" data-mdb-interval="3000" data-mdb-items="5">
-          <div class="multi-carousel-inner">
-            <div class="multi-carousel-item d-lg-flex gap-3">
-              <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                <div class="card-body product-card-body">
-                  <p class="card-text product-card-text">
-                    Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                  </p>
-                  <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                  <div class="h4 fw-bolder">$21.00 USD</div>
-                  <div class="d-grid">
-                    <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                      <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                <img src="/images/product2.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                <div class="card-body product-card-body">
-                  <p class="card-text product-card-text">
-                    Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                  </p>
-                  <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                  <div class="h4 fw-bolder">$21.00 USD</div>
-                  <div class="d-grid">
-                    <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                      <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                <img src="/images/product3.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                <div class="card-body product-card-body">
-                  <p class="card-text product-card-text">
-                    Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                  </p>
-                  <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                  <div class="h4 fw-bolder">$21.00 USD</div>
-                  <div class="d-grid">
-                    <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                      <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                <img src="/images/product2.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                <div class="card-body product-card-body">
-                  <p class="card-text product-card-text">
-                    Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                  </p>
-                  <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                  <div class="h4 fw-bolder">$21.00 USD</div>
-                  <div class="d-grid">
-                    <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                      <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                <div class="card-body product-card-body">
-                  <p class="card-text product-card-text">
-                    Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                  </p>
-                  <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                  <div class="h4 fw-bolder">$21.00 USD</div>
-                  <div class="d-grid">
-                    <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                      <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                  </div>
-                </div>
+      <div class="row ">
+        <div class="col-lg-6 col-md-12">
+          <div class="card text-center" style="width: 20rem;">
+            <img src="images/blog-2-image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BLOG POST</h5>
+              <p class="card-text">Give your customers a summary of your blog post</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div>
+            <div class="card text-center" style="width: 20rem;">
+              <img src="images/blog-2-image.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BLOG POST</h5>
+                <p class="card-text">Give your customers a summary of your blog post</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--WHAT'S NEW SECTION END-->
+    <!--ARTICLE BLOG 2 END-->
 
-    <!--RECENT RESTOCK START-->
-    <div class="container-fluid my-3">
-      <div class="row justify-content-center">
-        <div class="col-lg-1 justify-content-lg-center bst-of-bst">
-          RECENT RESTOCK
-        </div>
-        <div class="col-lg-11  gap-3">
-          <div class="multi-carousel" data-mdb-interval="3000" data-mdb-items="5">
-            <div class="multi-carousel-inner">
-              <div class="multi-carousel-item d-lg-flex gap-3">
-                <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                  <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                  <div class="card-body product-card-body">
-                    <p class="card-text product-card-text">
-                      Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                    </p>
-                    <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                    <div class="h4 fw-bolder">$21.00 USD</div>
-                    <div class="d-grid">
-                      <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                        <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                  <img src="/images/product2.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                  <div class="card-body product-card-body">
-                    <p class="card-text product-card-text">
-                      Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                    </p>
-                    <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                    <div class="h4 fw-bolder">$21.00 USD</div>
-                    <div class="d-grid">
-                      <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                        <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                  <img src="/images/product3.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                  <div class="card-body product-card-body">
-                    <p class="card-text product-card-text">
-                      Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                    </p>
-                    <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                    <div class="h4 fw-bolder">$21.00 USD</div>
-                    <div class="d-grid">
-                      <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                        <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                  <img src="/images/product1.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                  <div class="card-body product-card-body">
-                    <p class="card-text product-card-text">
-                      Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                    </p>
-                    <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                    <div class="h4 fw-bolder">$21.00 USD</div>
-                    <div class="d-grid">
-                      <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                        <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card product-card border-light border-1 align-items-center" style="width: 18rem">
-                  <img src="/images/product2.jpg" class="card-img-top product-card-img w-75" alt="..." />
-                  <div class="card-body product-card-body">
-                    <p class="card-text product-card-text">
-                      Handshower Set With 36 Inch Slide Bar And 4-Function Handshower - Chrome | Model Number: 1010C
-                    </p>
-                    <h5 class="card-title product-card-title text-muted">Luxury with Love</h5>
-                    <div class="h4 fw-bolder">$21.00 USD</div>
-                    <div class="d-grid">
-                      <a href="#" class="btn btn-link btn-light product-card-btn link-dark text-decoration-none">
-                        <img src="/images/add-to-cart.png" alt="add-to-cart-icon"> Add to Cart</a>
-                    </div>
-                  </div>
-                </div>
+
+    <!--FOOTER START-->
+    <!--FOOTER1-->
+    <section class="footer-wrapper">
+      <div class="container-fluid d-flex footer-content-newsletter">
+        <div class="row d-flex justify-content-center m-5 border">
+          <div class="col-lg-4 col-sm-12 border">
+            <div class="display-5 footer-1-title">you’ve come so far.</div>
+            <div class="footer-1-text">So why not join our crew of airsoft nutheads for monthly promotions,
+              updates and tips? Nothing can go wrong</div>
+          </div>
+          <div class="d-flex col-lg-8 col-sm-12 border">
+            <form class="d-flex align-content-lg-center justify-content-lg-center gap-5">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">YOUR EMAIL</label>
+                <input type="email" class="form-control border border-0 bg-secondary text-light w-100"
+                  id="exampleInputEmail1" aria-describedby="emailHelp" />
               </div>
-            </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">YOUR NAME</label>
+                <input type="password" class="form-control border border-0 bg-secondary text-light"
+                  id="exampleInputPassword1" />
+              </div>
+              <button type="submit" class="btn hero-card-btn btn-primary mt-3 ps-2">
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </div>
-      <!--RECENT RESTOCK END-->
+    </section>
 
-      <!--ARTICLE BLOG 2 START-->
-      <div class="article-blog-2-section justify-content-center">
-        <div class="container-lg-fluid article-blog-2 px-5 ">
-          <div class="row">
-            <div class="col-12 text-center">
-              <p class="article-blog-2-title mt-3 mb-5">THE LUXURYWITHLOVE BLOG</p>
-            </div>
+    <!--FOOTER2-->
+    <section class="footer-content-termsAndConditions-wrapper">
+      <div class="container-fluid d-flex footer-content-logo-social justify-content-around">
+        <div class="footer-logo-social m-auto p-3">
+          <div class="footer-content-logo">
+            <img class="footer-logo-image" src="/images/logo-black.png" alt="" />
           </div>
-          <div class="row ">
-            <div class="col-lg-6 col-md-12">
-              <div class="card text-center" style="width: 20rem;">
-                <img src="images/blog-2-image.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">BLOG POST</h5>
-                  <p class="card-text">Give your customers a summary of your blog post</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div>
-                <div class="card text-center" style="width: 20rem;">
-                  <img src="images/blog-2-image.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">BLOG POST</h5>
-                    <p class="card-text">Give your customers a summary of your blog post</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="footer-content-social">
+            <ul class="footer-content-social-list list-unstyled d-flex gap-2">
+              <li>
+                <a href="#" target="_blank"><img src="/images/smb1.png" alt="icon-twitter" /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><img src="/images/smb2.png" alt="icon-facebook" /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><img src="/images/smb3.png" alt="icon-instagram" /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><img src="/images/smb4.png" alt="icon-youtube" /></a>
+              </li>
+            </ul>
           </div>
         </div>
-        <!--ARTICLE BLOG 2 END-->
+        <div class="d-flex gap-5 m-auto footer-content-text">
+          <p><a class="text-decoration-none link-dark " href="#">Terms & Policies</a></p>
+          <p><a class="text-decoration-none link-dark" href="#">Contact Us</a></p>
+        </div>
+      </div>
+    </section>
 
+    <!--FOOTER3-->
+    <section class="footer-content-copyright-wrapper">
+      <div class="container-fluid footer-content-copyright justify-content-center align-items-center my-4">
+        © 2023, luxurywithluv. Powered by Shopify
+      </div>
+    </section>
+    <!--FOOTER END-->
 
-        <!--FOOTER START-->
-        <!--FOOTER1-->
-        <section class="footer-wrapper">
-          <div class="container-fluid d-flex footer-content-newsletter">
-            <div class="row d-flex justify-content-center m-5">
-              <div class="col-lg-4 col-sm-12 footer-1-text">
-                <div class="display-5 footer-1-title">you’ve come so far.</div>
-                So why not join our crew of airsoft nutheads for monthly promotions,
-                updates and tips? Nothing can go wrong
-              </div>
-              <div class="d-flex col-lg-8 col-sm-12 border">
-                <form class="d-flex align-content-lg-center justify-content-lg-center gap-5">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">YOUR EMAIL</label>
-                    <input type="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">YOUR NAME</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" />
-                  </div>
-                  <button type="submit" class="btn hero-card-btn btn-primary mt-3 ps-2">
-                    Subscribe
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!--FOOTER2-->
-        <section class="footer-content-termsAndConditions-wrapper">
-          <div class="container-fluid d-flex footer-content-logo-social justify-content-around">
-            <div class="footer-logo-social m-auto p-3">
-              <div class="footer-content-logo">
-                <img class="footer-logo-image" src="/images/logo-black.png" alt="" />
-              </div>
-              <div class="footer-content-social">
-                <ul class="footer-content-social-list list-unstyled d-flex gap-2">
-                  <li>
-                    <a href="#" target="_blank"><img src="/images/smb1.png" alt="icon-twitter" /></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"><img src="/images/smb2.png" alt="icon-facebook" /></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"><img src="/images/smb3.png" alt="icon-instagram" /></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"><img src="/images/smb4.png" alt="icon-youtube" /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="d-flex gap-5 m-auto footer-content-text">
-              <p><a class="text-decoration-none link-dark " href="#">Terms & Policies</a></p>
-              <p><a class="text-decoration-none link-dark" href="#">Contact Us</a></p>
-            </div>
-          </div>
-        </section>
-
-        <!--FOOTER3-->
-        <section class="footer-content-copyright-wrapper">
-          <div class="container-fluid footer-content-copyright pt-4">
-            © 2023, luxurywithluv. Powered by Shopify
-          </div>
-        </section>
-        <!--FOOTER END-->
-
-        <!--jQuery CDN-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-          integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!-- Bootstrap Bundle -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Owl Carousel -->
-        <script src="/owl_carousel/owl.carousel.js"></script>
-        <!--own script-->
-        <script src="/js/script.js"></script>
+    <!--jQuery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="/owl_carousel/owl.carousel.js"></script>
+    <!--Own script-->
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

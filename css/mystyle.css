@@ -61,21 +61,19 @@
 }
 
 /**hero-card**/
+
 .hero-card-title {
     color: #D9C9B9;
     font-family: Roboto;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 2rem;
     line-height: 20px;
-    /* 62.5% */
     letter-spacing: -0.48px;
 }
 
 .hero-card-text {
     color: #D9C9B9;
     font-family: Bebas Neue;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -89,12 +87,12 @@
 }
 
 .hero-card-btn {
-    width: 100px;
-    height: 34px;
+    width: 8.5rem;
+    height: 45px;
     gap: 3px;
     border-radius: 10px;
     background: #B9C2D9;
-    font-size: 10px;
+    font-size: 14px;
     color: #000;
 }
 
@@ -122,27 +120,47 @@
     text-transform: uppercase;
 }
 
-.cat {
-    gap: 96px;
-}
 
 /**Best Of Best Section**/
-.bst-of-bst {
+.bob-title {
     color: #202020;
     font-family: Bebas Neue;
-    font-size: 50px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: 63px;
-    /* 126% */
     letter-spacing: -0.75px;
     text-transform: uppercase;
 }
+
 
 .product-card-btn {
     border-radius: 10px;
     background: #B9C2D9;
 }
+
+/**Owl Carosoul CSS**/
+  
+  .contain {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .item {
+    align-items: center;
+    background-color:#fff;
+    color: black;
+    width:auto;
+    height: auto ;
+    justify-content: center;
+  }
+  .bob-section #owl-carousel .product-card-btn img {
+    display: inline;
+    width: 20px;
+  }
+
+
 
 /**Why Us? Section**/
 .whyus {
@@ -244,12 +262,12 @@
 }
 
 /**Footer**/
-.footer-1 {
+.footer-content-newsletter {
     justify-content: center;
     align-items: center;
     gap: 38px;
     background: rgba(185, 194, 217, 0.30);
-    margin: 0;
+    margin-top: 3rem;
 }
 
 .footer-1-title {
@@ -266,13 +284,12 @@
 .footer-1-text {
     color: #202020;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    letter-spacing: 0.48px;
-}
+    line-height: 1.875rem;
+    letter-spacing: 0.03rem;
+    }
 
 .footer-content-logo-social {
     background: #D9C9B9;
@@ -287,7 +304,7 @@
     color: #000;
     text-align: center;
     font-family: Victor Mono;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
