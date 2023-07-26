@@ -137,13 +137,13 @@
 .product-card-body{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
     align-self: stretch;
+    padding: 0px 14px 8px 14px;
 }
 .product-card-btn {
     border-radius: 10px;
     background: #B9C2D9;
+    margin-top: 18px;
 }
 
 /**Owl Carosoul CSS**/
@@ -151,7 +151,6 @@
     margin: 0% auto;
     max-width: 1200px;
     width: 100%;
-   
 }
 
 .item {
@@ -161,7 +160,9 @@
     justify-content: center;
 }
 
-.bob-section #owl-carousel .product-card-btn img {
+.bob-section #owl-carousel-1 .product-card-btn img,
+.whats-new-section #owl-carousel-2 .product-card-btn img,
+.recent-stock-section #owl-carousel-3 .product-card-btn img  {
     display: inline;
     width: 20px;
 }
@@ -251,7 +252,6 @@
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
-
 }
 
 .blog-btn {

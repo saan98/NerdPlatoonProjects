@@ -1,8 +1,7 @@
 const nextIcon = '<img src="/images/arrow-next.png">'
 const prevIcon = '<img src="/images/arrow-prev.png">'
 
-
-$('#owl-carousel').owlCarousel({
+$('#owl-carousel-1').owlCarousel({
     loop: false,
     margin: 30,
     dots: false,
@@ -28,6 +27,63 @@ $('#owl-carousel').owlCarousel({
             loop:false
         }
     }
-
-    
 })
+
+$('#owl-carousel-2').owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: true,
+    autoplay: false,
+    navText:[
+        prevIcon,
+        nextIcon
+    ],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:4.75,
+            nav:true,
+            loop:false
+        }
+    }
+})
+$('#owl-carousel-3').owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: true,
+    autoplay: false,
+    navText:[
+        prevIcon,
+        nextIcon
+    ],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:4.75,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+$('.owl-next').on('click', function() {
+    $('.owl-carousel-1').trigger('stop.owl.autoplay');
+  });
