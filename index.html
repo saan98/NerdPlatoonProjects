@@ -22,7 +22,7 @@
   <header>
     <!--NAV-BAR-START-->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container d-flex justify-content-center align-items-center gap-3">
+      <div class="container d-flex justify-content-center align-items-center  gap-3">
         <a href="#" class="navbar-brand"><img src="/images/logo.png" alt="Luxury With Love" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +30,8 @@
         </button>
         <div class="input-group">
           <input class="form-control border-end-0 border" placeholder="Search" type="search" id="example-search-input">
-          <span class="">
-            <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-1 border ms-n5"
+          <span >
+            <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-1 border "
               type="button">
               <img src="/images/search_icon.png" alt="search" />
             </button>
@@ -65,9 +65,9 @@
     <!--NAV-BAR-END-->
 
     <!--NAV-MENU-START-->
-    <nav class="navbar navbar-expand-lg nav-light">
+    <nav class="navbar navbar-expand-lg nav-light py-lg-3">
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav nav-menu-items">
+        <ul class="navbar-nav nav-menu-items gap-3">
           <li class="nav-item">
             <a class="nav-link link-dark active" href="#">Home</a>
           </li>
@@ -99,52 +99,48 @@
   </header>
   <!--HEADER SECTION END-->
 
-  <!--ANNOUNCEMENT BAR & HERO SECTION START-->
-  <section class="announcment-hero-section">
-    <div class="container-fluid">
-      <!--ANNOUNCEMENT BAR START-->
-      <div class="d-flex flex-wrap justify-content-center align-items-center announc-bar p-3 hstack gap-5">
-        <div>
+  <!--ANNOUNCEMENT BAR START-->
+  <section class="announcment-bar-section d-flex">
+    <div class="container">
+      <div class="row p-lg-3 py-md-2">
+        <div class="col-lg-4 col-md-12 ">
           <img class="m-1" src="/images/a (1).png" alt="shipping-icon" /> Free
           Canada-wide Shipping on orders over $300
         </div>
-        <div>
+        <div class="col-lg-4 col-md-12 ">
           <img class="m-1" src="/images/a (2).png" alt="shipping-icon" /> Price
           matching all Canadian retailer
         </div>
-        <div>
+        <div class="col-lg-4 col-sm-12 ">
           <img class="m-1" src="/images/a (3).png" alt="shipping-icon" /> 4.8
           stars on GBP - 79 Google reviews
         </div>
       </div>
-      <!--ANNOUNCEMENT BAR END-->
+    </div>
+  </section>
+  <!--ANNOUNCEMENT BAR END-->
 
-      <!--HERO SECTION START-->
-      <div class="hero-bg bg-image d-flex justify-content-center align-items-center" style="
-          background-image: url('images/banner_image.png');
-          height: 50vh;
-          background-size: cover;
-          background-repeat: no-repeat;
-        ">
-        <div class="card hero-card text-left" style="width: 379px; background: transparent">
-          <div class="hero-card-body justify-content-center">
-            <h5 class="card-title hero-card-title fw-lighter">Limited Live Sale</h5>
-            <p class="hero-card-text" style="font-size: 4.1rem">XX%</p>
-            <p class="hero-card-text">
-              Discount on</p><span class="hero-card-text">curated items</span>
-            </p>
-            <button type="submit" class="btn hero-card-btn btn-primary mt-3 ps-2">
-              Sign Up Now!
-            </button>
-          </div>
+  <!--HERO SECTION START-->
+  <section>
+    <div class="bg-image d-flex justify-content-center align-items-center">
+      <div class="card hero-card ">
+        <div class="hero-card-body">
+          <h5 class="card-title hero-card-title fs-5">Limited Live Sale</h5>
+          <p class="hero-card-text" style="font-size: 4.1rem">XX%</p>
+          <p class="hero-card-text">
+            Discount on</p><span class="hero-card-text">curated items</span>
+          </p>
+          <button type="submit" class="btn hero-card-btn btn-primary mt-3 ps-2">
+            Sign Up Now!
+          </button>
         </div>
       </div>
     </div>
   </section>
-  <!--ANNOUNCEMENT BAR & HERO SECTION END-->
+  <!--HERO SECTION END-->
 
   <!--CATEGORY SECTION START-->
-  <section class="category-section my-3">
+  <section class="category-section my-lg-5">
     <div class="container">
       <p class="wfc">WHAT FOLKS CAN'T GET ENOUGH OF</p>
       <div class="category-items d-flex flex-wrap justify-content-center align-items-start gap-4">
@@ -160,8 +156,8 @@
 
   <!--THE BEST OF THE BEST SECTION START-->
   <section class="bob-section bg-light">
-    <div class="container my-3 pt-3 pb-5 mb-0">
-      <div class="row d-flex">
+    <div class="container my-4 pt-3 pb-5 mb-0">
+      <div class="row d-flex pb-lg-5">
         <div class="col-lg-2">
           <div class="bob-title">
             The Best of the Best &rarr;
@@ -262,7 +258,7 @@
 
   <!--WHY US SECTION START-->
   <section class="why-us-section">
-    <div class="container-fluid whyus px-5">
+    <div class="container whyus pb-lg-5 pt-lg-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -322,9 +318,9 @@
   <!--WHY US SECTION END-->
 
   <!-- ARTICLE BLOGS 1 START-->
-  <section class="article-blog-1-section">
-    <div class="container-fluid d-flex blog-div justify-content-around">
-      <div class="row align-content-center my-1 m-0">
+  <section class="article-blog-1-section bg-light">
+    <div class="container-fluid d-flex blog-div justify-content-lg-center pt-2 pb-4 mb-0">
+      <div class="row align-content-center">
         <div class="col-lg-4 col-sm-12">
           <div class="card blog-card">
             <img src="/images/blog1.png" class="card-img-top blog-card-image" alt="..." />
@@ -376,7 +372,7 @@
 
   <!--WHAT'S NEW SECTION START-->
   <section class="whats-new-section bg-light">
-    <div class="container my-3 pt-3 pb-5 mb-0">
+    <div class="container my-0 pt-3 pb-5 mb-0">
       <div class="row d-flex">
         <div class="col-lg-2">
           <div class="bob-title">
@@ -487,7 +483,7 @@
 
   <!--RECENT RESTOCK START-->
   <section class="recent-stock-section bg-light">
-    <div class="container my-3 pt-3 pb-5 mb-0">
+    <div class="container my-0 pt-4 pb-5 mb-0">
       <div class="row d-flex">
         <div class="col-lg-2">
           <div class="bob-title">
@@ -635,20 +631,20 @@
 
   <!--FOOTER START-->
   <!--FOOTER1-->
-  <section class="footer-wrapper">
-    <div class="container-fluid d-flex footer-content-newsletter m-0">
-      <div class="row d-flex justify-content-center m-5  ">
-        <div class="col-lg-4 col-sm-12">
+  <section class="footer-newsletter d-flex justify-content-center">
+    <div class="container d-flex footer-content-newsletter m-0 ">
+      <div class="row m-lg-5 py-md-2">
+        <div class="col-lg-4 col-md-12">
           <div class="display-5 footer-1-title">you’ve come so far.</div>
-          <div class="footer-1-text">So why not join our crew of airsoft nutheads for monthly promotions,
+          <div class="footer-1-text fs-6">So why not join our crew of airsoft nutheads for monthly promotions,
             updates and tips? Nothing can go wrong</div>
         </div>
-        <div class="d-flex col-lg-8 col-sm-12 ">
-          <form class="d-flex align-content-lg-center justify-content-lg-center gap-5">
+        <div class="d-flex col-lg-8 col-md-12 my-0 py-0">
+          <form class="d-lg-flex flex-wrap justify-content-lg-center gap-5">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">YOUR EMAIL</label>
-              <input type="email" class="form-control border border-0 bg-secondary text-light w-100"
-                id="exampleInputEmail1" aria-describedby="emailHelp" />
+              <input type="email" class="form-control border border-0 bg-secondary text-light" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">YOUR NAME</label>
@@ -666,7 +662,7 @@
 
   <!--FOOTER2-->
   <section class="footer-content-termsAndConditions-wrapper">
-    <div class="container-fluid d-flex footer-content-logo-social justify-content-around">
+    <div class="container d-flex footer-content-logo-social justify-content-center">
       <div class="footer-logo-social m-auto p-3">
         <div class="footer-content-logo">
           <img class="footer-logo-image" src="/images/logo-black.png" alt="" />
@@ -689,15 +685,17 @@
         </div>
       </div>
       <div class="d-flex gap-5 m-auto footer-content-text">
-        <p><a class="text-decoration-none link-dark " href="#">Terms & Policies</a></p>
-        <p><a class="text-decoration-none link-dark" href="#">Contact Us</a></p>
+        <a class="text-decoration-none link-dark" href="#">Contact Us</a></p>
+      </div>
+      <div class="d-flex gap-5 m-auto footer-content-text">
+        <a class="text-decoration-none link-dark " href="#">Terms & Policies</a>
       </div>
     </div>
   </section>
 
   <!--FOOTER3-->
   <section class="footer-content-copyright-wrapper">
-    <div class="container-fluid footer-content-copyright justify-content-center align-items-center my-4">
+    <div class="container footer-content-copyright text-center my-4">
       © 2023, luxurywithluv. Powered by Shopify
     </div>
   </section>
