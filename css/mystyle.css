@@ -191,8 +191,6 @@
     background: #D9C9B9;
 }
 
-@media (min-width:1024) {}
-
 .whyus-title {
     color: #202020;
     font-family: Bebas Neue;
@@ -272,7 +270,6 @@
 
 /**article blog 2**/
 .article-blog-2-container{
-    width: 604px;
     height: auto;
 }
 .article-blog-2-title {
