@@ -20,12 +20,11 @@ html{
 
     /**search-bar**/
     .search-bar {
-        width: 563px;
-        height: 45px;
-        padding: 0px 14px 0px 0px;
+        width: 100%;
+        height: auto;
+        
     }
     .input-group{
-        min-width: 300px;
         width: 100%;
     
     }
