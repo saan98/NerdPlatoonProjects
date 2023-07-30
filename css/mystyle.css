@@ -36,14 +36,6 @@ html{
 
 
 /**NAV MENU**/
-.nav-menu{
-    padding: 0;
-    margin: 0;
-}
-.nav-menu-div{
-    padding: 0 0 2.06rem 21.88rem;
-    gap: 1.5 rem;
-}
 .nav-link{
     font-family: Roboto;
     font-size: 0.9375rem;
@@ -154,9 +146,6 @@ html{
 .category-section .container{
     margin-top: 4rem;
     margin-bottom: 4rem;
-}
-.cat-con{
-    
 }
 .cat-title{
     margin-bottom:1.56rem ;
