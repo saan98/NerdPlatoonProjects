@@ -270,32 +270,21 @@ html{
 }
 
 .blog-card-title {
-    color: #202020;
     font-family: Bebas Neue;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.39px;
-    text-transform: uppercase;
+    font-size: 1.625rem;
 }
 
 .blog-card-text {
-    color: #202020;
     font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
 }
 
 .blog-btn {
     display: flex;
-    width: 155px;
     height: 50px;
-    justify-content: center;
     align-items: center;
     background: #FFF;
 }
@@ -303,7 +292,6 @@ html{
 .blog-btn-text {
     color: #000;
     font-family: Roboto;
-    font-weight: 400;
     text-transform: uppercase;
 }
 
