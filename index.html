@@ -22,41 +22,45 @@
   <header>
     <!--NAV-BAR-START-->
     <nav class="navbar navbar-expand-lg navbar-light nav-bar">
-      <div class="container d-flex justify-content-center align-items-center gap-lg-5">
-        <a href="#" class="navbar-brand"><img src="/images/logo.png" alt="Luxury With Love" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="container gap-4">
+        <a href="#" class="navbar-brand me-0"><img src="/images/logo.png" alt="Luxury With Love logo" /></a>
+        <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="input-group">
           <input class="form-control border-end-0 border" placeholder="Search" type="search" id="example-search-input">
           <span>
-            <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-1 border " type="button">
+            <button class="btn btn-outline-secondary bg-white border-start-0 border" type="button">
               <img src="/images/search_icon.png" alt="search" />
             </button>
           </span>
         </div>
-        <div class="container d-lg-flex d-md-none d-sm-none justify-content-center align-items-center text-center">
-          <img src="/images/flag_icon.png" alt="Cannada" />
-        </div>
-        <div class="container d-lg-flex d-sm-none justify-content-center align-items-center text-center"
-          style="gap: 10px">
-          0&nbspItems<img src="/images/cart_icon.png" alt="Cart" />
-        </div>
-        <div class="container d-lg-flex d-sm-none justify-content-center align-items-center text-center"
-          style="gap: 10px">
-          Account<img src="/images/account_icon.png" alt="Account" />
-        </div>
-        <div class="container d-lg-flex d-sm-none justify-content-center align-items-center text-center"
-          style="gap: 7px">
-          Wishlist<img src="/images/wishlist_icon.png" alt="Wishlist" />
-        </div>
-        <div class="container d-lg-flex d-sm-none justify-content-center align-items-center text-center"
-          style="gap: 21px">
-          <img src="/images/sm1.png" alt="twitter" />
-          <img src="/images/sm2.png" alt="facebook" />
-          <img src="/images/sm3.png" alt="instagram" />
-          <img src="/images/sm4.png" alt="youtube" />
+        <div class="collapse navbar-collapse gap-4 text-center d-md-none" id="navbarSupportedContent">
+          <div class="container d-lg-flex">
+            <img src="/images/flag_icon.png" alt="Cannada" />
+          </div>
+          <div class="container d-lg-flex gap-2">
+            0&nbsp;Items<img src="/images/cart_icon.png" alt="Cart" />
+          </div>
+          <div class="container d-lg-flex gap-2">
+            Account<img src="/images/account_icon.png" alt="Account" />
+          </div>
+          <div class="container d-lg-flex gap-2">
+            Wishlist<img src="/images/wishlist_icon.png" alt="Wishlist" />
+          </div>
+          <div class="container d-lg-flex gap-4">
+            <img src="/images/sm1.png" alt="twitter" />
+            <img src="/images/sm2.png" alt="facebook" />
+            <img src="/images/sm3.png" alt="instagram" />
+            <img src="/images/sm4.png" alt="youtube" />
+          </div>
         </div>
       </div>
     </nav>
@@ -69,8 +73,8 @@
     <!--NAV-MENU-START-->
     <nav class="navbar navbar-expand-lg nav-light">
       <div class="collapse navbar-collapse nav-menu-div" id="navbarSupportedContent">
-        <div class="container px-0">
-          <ul class="navbar-nav nav-menu-items ps-lg-5">
+        <div class="container px-0 pb-3">
+          <ul class="navbar-nav nav-menu-items ps-lg-5 text-center">
             <li class="nav-item">
               <a class="nav-link link-dark active" href="#">Home</a>
             </li>
@@ -357,7 +361,7 @@
               <p class="card-text blog-card-text">
                 Didn't we mention we have a huge GBB restock?
               </p>
-              <div class="blog-btn border border-0 rounded-3 ">
+              <div class="btn blog-btn border border-0 rounded-3 ">
                 <a href="#" class="blog-btn-text text-decoration-none">No way, show me &nbsp;&rarr;</a>
               </div>
             </div>
@@ -371,7 +375,7 @@
               <p class="card-text blog-card-text">
                 You're probably missing a Raven Elite Gen 2.
               </p>
-              <div class="btn blog-btn border-1 rounded-5">
+              <div class="btn blog-btn border-1 ">
                 <a href="#" class="blog-btn-text text-decoration-none">Totally, let me see it &nbsp;&rarr;</a>
               </div>
             </div>
