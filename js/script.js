@@ -3,7 +3,7 @@ const prevIcon = '<img src="/images/arrow-prev.png">'
 
 $('#owl-carousel-1').owlCarousel({
     loop: false,
-    margin: 30,
+    margin: 10,
     dots: false,
     nav: true,
     autoplay: false,
@@ -19,7 +19,7 @@ $('#owl-carousel-1').owlCarousel({
         },
         600:{
             items:2,
-            nav:false
+            nav:true
         },
         1000:{
             items:3.5,
@@ -31,7 +31,7 @@ $('#owl-carousel-1').owlCarousel({
 
 $('#owl-carousel-2').owlCarousel({
     loop: false,
-    margin: 30,
+    margin: 10,
     dots: false,
     nav: true,
     autoplay: false,
@@ -47,10 +47,10 @@ $('#owl-carousel-2').owlCarousel({
         },
         600:{
             items:2,
-            nav:false
+            nav:true
         },
         1000:{
-            items:4.75,
+            items:4.3,
             nav:true,
             loop:false
         }
@@ -58,7 +58,7 @@ $('#owl-carousel-2').owlCarousel({
 })
 $('#owl-carousel-3').owlCarousel({
     loop: false,
-    margin: 30,
+    margin: 10,
     dots: false,
     nav: true,
     autoplay: false,
@@ -74,10 +74,10 @@ $('#owl-carousel-3').owlCarousel({
         },
         600:{
             items:2,
-            nav:false
+            nav:true
         },
         1000:{
-            items:4.75,
+            items:4.3,
             nav:true,
             loop:false
         }
